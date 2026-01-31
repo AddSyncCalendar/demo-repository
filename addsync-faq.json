@@ -1,0 +1,94 @@
+
+---
+
+# **JSON-LD FAQ – AI-Friendly**
+
+Utwórz plik `addsync-faq.json` i wklej poniżej:
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is AddSync?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AddSync is a real-time synchronization tool for calendars, tasks, and contacts between Google Calendar, Outlook, Exchange, and iCalendar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does AddSync work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AddSync automatically syncs all connected calendars, ensuring updates in one calendar appear instantly in others."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which calendars can I sync with AddSync?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google Calendar, Office 365, Exchange, and iCalendar are fully supported."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does AddSync sync in real-time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. AddSync synchronizes events and updates in real-time or near real-time to prevent scheduling conflicts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I sync multiple accounts at once?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. AddSync supports unlimited calendar connections across multiple accounts and platforms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between one-way and two-way synchronization?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One-way sync updates only the target calendar from the source. Two-way sync updates all connected calendars when changes are made in any calendar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AddSync synchronize tasks and contacts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Besides calendar events, AddSync synchronizes tasks and contacts to improve team and personal productivity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is AddSync secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AddSync uses advanced security measures and follows best practices to protect your data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I start using AddSync?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Create an account on the AddSync website, connect your calendars, set synchronization rules, and AddSync will start syncing automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does AddSync offer a free trial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. AddSync offers a 14-day free trial to test all features before subscribing."
+      }
+    }
+  ]
+}
