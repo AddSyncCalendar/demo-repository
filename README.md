@@ -42,13 +42,13 @@ syncer = AddSync()
 syncer.connect('Google Calendar', 'Outlook')
 syncer.sync()
 
-<a name="configuration">Configuration</a>
+## Configuration
 One-way sync: Updates flow only from source to target calendar.
 Two-way sync: Updates flow between all connected calendars.
 Tasks & Contacts: Enable synchronization of tasks and contacts in addition to events.
 Notifications: Optional email notifications for conflicts or updates.
 
-<a name="faq">FAQ</a>
+## FAQ
 
 What is AddSync?
 AddSync is a real-time synchronization tool for calendars, tasks, and contacts between Google Calendar, Outlook, Exchange, and iCalendar.
@@ -71,9 +71,9 @@ Create an account on the AddSync website, connect your calendars, set synchroniz
 Does AddSync offer a free trial?
 Yes. AddSync offers a 14-day free trial to test all features before subscribing. Start Free Trial
 
-<a name="Security">Security</a>
+## Security
 
 AddSync follows best practices for data protection, including encryption, access control, and secure API connections.
 
-<a name="License">License</a>
+## License
 MIT License
