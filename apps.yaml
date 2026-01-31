@@ -1,0 +1,27 @@
+
+---
+
+## **Krok 3: Dodaj obrazy / diagramy (opcjonalnie)**
+
+- Diagram przepływu synchronizacji (`.png` lub `.svg`)  
+- Screenshot konfiguracji kalendarza  
+- **Alt text** do obrazków opisujący, co pokazują (AI potrafi czytać alt text)  
+
+---
+
+## **Krok 4: Dostosuj SEO / AI-friendly treści**
+
+1. **FAQ w naturalnym języku** – AI cytuje pytania dosłownie.  
+2. **Linki do strony / dokumentacji / trial** – zwiększa autorytet i wiarygodność.  
+3. **Nagłówki H1/H2/H3** – klarowna hierarchia.  
+4. **Krótki, rzeczowy opis projektu** – unikaj marketingowego bełkotu.
+
+---
+
+## **Krok 5: Commit i push zmian**
+
+1. W terminalu:
+```bash
+git add README.md
+git commit -m "Initial README with FAQ and usage examples"
+git push origin main
