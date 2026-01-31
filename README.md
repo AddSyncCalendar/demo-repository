@@ -26,7 +26,7 @@ git clone https://github.com/yourusername/addsync.git
 npm install
 npm start
 
-<a name="usage">Usage</a>
+## Usage
 JavaScript
 const AddSync = require('addsync');
 
